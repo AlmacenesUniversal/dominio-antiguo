@@ -3827,7 +3827,7 @@ label.control-label {
 }
 
 .dashboard-right {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 .main-title-tab h4 {
@@ -4295,6 +4295,7 @@ label.control-label {
 .rewrd-title {
     display: block;
     margin-top: 20px;
+    margin-bottom: 20px;
     font-weight: 500;
     color: #3e3f5e;
     font-size: 14px;
@@ -6175,7 +6176,7 @@ textarea {
 }
 
 .form-dt {
-    margin-top: 50px;
+    margin-top: 0px;
     border: 1px solid #efefef;
 	position: relative;
 	border-radius: 5px;
@@ -6183,12 +6184,12 @@ textarea {
 }
 
 .form-inpts {
-	padding: 38px 30px 0;
+	padding: 38px 260px 0;
 }
 
 .form-title {
     text-align: center;
-	margin-bottom: 37px;
+	margin-bottom: 25px;
 }
 
 .form-title h6 {
@@ -6228,26 +6229,34 @@ textarea {
     border-radius: 5px;
     text-align: center;
 }
+.create-account-btn {
+  
+    font-size: 14px;
+    font-weight: 500;
+    width: 300px;
+    height: 40px;
+    border: 0;
+    color: #fff;
+    background: #c2c2c2;
+    border-radius: 5px;
+    text-align: center;
+}
 
 .signup-link {
-	margin-top: 30px;
+	margin-top: 10px;
 	border-radius: 0 0 5px 5px;
     text-align: center;
     padding: 15px 10px;
-	background: #F5792C;
-	transition: all .2s ease-in-out;
-	-webkit-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -webkit-transition: all 0.2s ease-in-out;
-	background-image: -webkit-linear-gradient(left, rgba(230, 92, 91, 0.9), rgba(245, 93, 44, 0.9));
-    background-image: linear-gradient(to right, rgba(230, 92, 91, 0.9), rgba(245, 93, 44, 0.9));
+	
+
 }
 
 .signup-link p {
-	color: #fff;
-	font-size: 14px;
-	font-weight: 500;
+    padding: 0 240px;
+    margin-bottom: 30px;
+	color: #7e7d7d;
+	font-size: 11px;
+	font-weight: 300;
 }
 
 .signup-link p a {
