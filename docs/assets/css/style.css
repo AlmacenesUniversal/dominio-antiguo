@@ -6132,9 +6132,15 @@ textarea {
 }
 
 .form-inpts {
-	padding: 38px 60px 0;
+	padding: 40px 20px 0 100px;
 }
-
+.form-social {
+	padding: 40px 100px 0 20px;
+}
+.form-social p {
+	text-align: center;
+    color: #1E1C38;
+}
 .form-title {
     text-align: center;
 	margin-bottom: 25px;
@@ -6267,9 +6273,15 @@ textarea {
     color: #fff !important;
 	box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
 }
+
 .login-ocasional {
-	text-align: center;
-    padding: 10px 60px 0px 60px;
+	
+    padding: 10px 110px 0px 10px;
+}
+.login-ocasional p{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #999999
 }
 
 .password-forgor {
