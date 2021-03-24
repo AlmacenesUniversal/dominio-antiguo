@@ -1392,8 +1392,8 @@ div#editor {
 .left-side-tabs {
     background: #fff;
     margin-bottom: 30px;
-    border-radius: 3px;
-	border: 1px solid #efefef;
+    /* border-radius: 3px; 
+	border: 1px solid #efefef;*/
 }
 
 .user-item {
